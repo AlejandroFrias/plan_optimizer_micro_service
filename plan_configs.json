@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Flat",
+        "base_rate_per_kwh": 15
+    },
+    {
+        "name": "Tiered",
+        "base_rate_per_kwh": 17,
+        "base_monthly_fee": 495,
+        "tiered_rates": [
+            {
+                "usage_kwh": 500,
+                "rate_cents_per_kwh": 11
+            }
+        ]
+    },
+    {
+        "name": "Free Nights",
+        "base_rate_per_kwh": 19,
+        "base_monthly_fee": 995,
+        "time_of_day_prices": [
+            {
+                "start_time": "22:00",
+                "end_time": "06:00",
+                "rate_cents_per_kwh": 0
+            }
+        ]
+    }
+]
