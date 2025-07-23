@@ -18,7 +18,7 @@ Must‑haves:
 - [x] Simple README with run examples (curl, HTTPie, etc.).
 
 Stretch goal ideas:
-- [x] Config‑driven tariffs (YAML or JSON).
+- [x] Config‑driven tariffs (YAML or JSON). see [plan_configs.json](plan_configs.json)
 - [ ] Optional LLM endpoint: POST /explain that turns the JSON result into a plain‑English email blurb.
 - [ ] Enhance memory usage and performance by streaming the file and calculating all tariffs with one read through of the usage data
 
@@ -29,12 +29,13 @@ Requires python 3 installed.
 
 ```
 python -m venv venv
-python -m pip install -r requirements.txt
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ### Run dev server
 Using fastapi:
-```
+```shell
 fastapi dev main.py
 ```
 
@@ -53,7 +54,7 @@ Simply modify the file to add new or modify existing plans for the API service t
 
 Using pytest:
 
-```
+```shell
 pytest --cov
 ```
 
