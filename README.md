@@ -25,9 +25,18 @@ Stretch goal ideas:
 ## Development
 
 ### Installation
-Requires python 3 installed.
 
+
+Requires Python3.9+ installed and git. I'm running Python 3.13.3
+
+Clone this repo:
+```shell
+git clone git@github.com:AlejandroFrias/plan_optimizer_micro_service.git
+cd plan_optimizer_micro_service
 ```
+
+Install python packages:
+```shell
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
