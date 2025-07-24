@@ -1,5 +1,7 @@
 # Option 3 — Plan‑optimizer micro‑service (algorithm & API)
 
+Loom self-review video: [Loom Video](https://www.loom.com/share/f84d7ade564f4577bc395f267a37426d?sid=ede2b3fa-25b5-48fb-acf3-a6661b94dd3a)
+
 ## The brief
 Expose an endpoint POST /recommend (language + framework of your choice) that returns the cheapest of three tariffs for the supplied CSV:
 
